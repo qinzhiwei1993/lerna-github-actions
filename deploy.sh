@@ -17,7 +17,7 @@ then  npm run test
       git init
       git add -A
       git commit -m 'build dist'
-      git push -f git@github.com:qinzhiwei1993/lerna-github-actions.git main
+      git push
 fi
 
 

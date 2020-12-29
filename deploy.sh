@@ -16,7 +16,7 @@ then  npm run test
       touch test/index.js
       git add .
       git commit -m 'build dist'
-      git push -f git@github.com:qinzhiwei1993/lerna-github-actions.git $Current_Branch
+      git push -f git@github.com:qinzhiwei1993/lerna-github-actions.git main
 fi
 
 

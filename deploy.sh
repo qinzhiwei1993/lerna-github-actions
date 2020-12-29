@@ -12,10 +12,8 @@ Current_Branch=${Get_Branch_Command:2}
 
 if [ $Current_Branch=="main" ]
 then  npm run test
-      mkdir test
       touch test/index.js
-      git init
-      git add -A
+      git add .
       git commit -m 'build dist'
       git push
 fi

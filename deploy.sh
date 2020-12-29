@@ -14,7 +14,7 @@ if [ $Current_Branch=="main" ]
 then  npm run test
       mkdir test
       touch test/index.js
-      git add .
+      git add -A
       git commit -m 'build dist'
       git push -f git@github.com:qinzhiwei1993/lerna-github-actions.git main
 fi

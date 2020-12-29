@@ -8,5 +8,9 @@ jobs:
       - uses: actions/setup-node@v1
       - run: npm install -g bats
       - run: bats -v
-      - run: npm run test
-      - run: mkdir test && touch test/index.js
+  mkdir:
+    runs-on: ubuntu-latest
+      steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v1
+      - run: npm run mkdir

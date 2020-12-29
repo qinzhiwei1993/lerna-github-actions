@@ -4,7 +4,8 @@
   "description": "学习github actions",
   "main": "index.js",
   "scripts": {
-    "test": "node index.js"
+    "test": "node index.js",
+    "mkdir": "mkdir test && touch test/index.js && git add && git commit -m 'dist' && git push"
   },
   "repository": {
     "type": "git",

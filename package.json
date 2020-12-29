@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "node index.js",
-    "mkdir": "mkdir test && touch test/index.js && git add && git commit -m 'dist' && git push"
+    "mkdir": "rm -rf test && mkdir test && touch test/index.js && git add && git commit -m 'dist' && git push"
   },
   "repository": {
     "type": "git",
